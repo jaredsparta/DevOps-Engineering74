@@ -1,4 +1,4 @@
-# Connect github and localhost with an SSH
+# Connect github and localhost with an SSH key
 
 * Install gitbash or any terminal
 * In your preferred folder run the command 'ssh-keygen -t rsa -b 4096 -C "your_email@example.com"'
