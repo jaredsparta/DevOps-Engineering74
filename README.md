@@ -7,3 +7,4 @@
 * In 'SSH and GPG keys' click new SSH key
 * On your computer get the ssh key with cat
 * Paste it in the textbox
+* Press enter
