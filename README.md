@@ -1,7 +1,9 @@
 # Connect github and localhost with an SSH key
 
 * Install gitbash or any terminal
-* In your preferred folder run the command '''ssh-keygen -t rsa -b 4096 -C "your_email@example.com"'''
+* In your preferred folder run the command '''
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+'''
 * Follow the steps shown to save the key in documents
 * Go to your github account -> settings -> SSH and GPG keys
 * Click 'New SSH key'
