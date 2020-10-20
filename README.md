@@ -16,3 +16,10 @@ ls -a
 * Enter the .ssh file and run 'ls'
 * Copy the information in the .pub file
 * Paste it in the textbox in 'New SSH key'
+
+* After, run the following:
+```
+git add README.md
+git commit -m 'message for commit'
+git push
+```
