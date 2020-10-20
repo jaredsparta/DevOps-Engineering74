@@ -8,3 +8,4 @@
 * On your computer get the ssh key with cat
 * Paste it in the textbox
 * Press enter
+* test
