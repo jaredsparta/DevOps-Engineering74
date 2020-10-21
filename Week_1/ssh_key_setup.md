@@ -20,7 +20,7 @@ ls -a
 -----------------------------------------------------------
 * Key commands to add files to be committed:
 ```
-git add README.md
+git add . 
 git commit -m 'message for commit'
 git push
 ```
