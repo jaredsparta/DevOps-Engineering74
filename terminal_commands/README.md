@@ -1,9 +1,9 @@
--path: pwd
+- path: pwd
 
--make dir: mkdir NAME
+- make dir: mkdir NAME
 
--make file: touch NAME
+- make file: touch NAME
 
--see user: uname
+- see user: uname
 
--list dir: ls
+- list dir: ls
