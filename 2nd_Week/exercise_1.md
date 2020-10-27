@@ -1,6 +1,6 @@
 # SQL Exercise
 
-![](images/ex_erd.png)
+![](ex_erd.png)
 
 **Explaining cardinalities**
 - EBOOKS <-> USERS

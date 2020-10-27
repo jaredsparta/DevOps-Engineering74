@@ -2,7 +2,7 @@
 
 **Components**
 1. Entities
-    - The nmber of tables you need for a database.
+    - The number of tables you need for a database.
 2. Attributes
     - Information such as property, facts you need to describe each table.
 3. Relationships
@@ -35,10 +35,8 @@
 
 - It is common to represent N:N relationships via two 1:N relationships since they are hard to represent.
 
-
-
-
-
+**Splitting N:N relationships**
+- 
 
 ---
 **Used:**
