@@ -10,6 +10,8 @@
         WHERE 'GrossProfit' > 1000;
         -- You can't condition on 'GrossProfit' because it doesn't exist in the table
     ```
+- Don't use ```"``` but use ```'```
+- To escape apostrophes you need to use two apostrophes e.g. if you want to query for values that contain a ``` ' ``` then it would use ```WHERE CHARINDEX('''', <col>) > 0 ```
 
 **Wildcards**
 - msSQL not case-sensitive
@@ -134,6 +136,11 @@
     SELECT * FROM <table> WHERE CHARINDEX('''', <col>) > 0;
     -- CHARINDEX is a string function
     
+    SELECT COUNT(<col1>), <col2> 
+    FROM <table> 
+    GROUP BY <col2>
+    HAVING COUNT(<col1>) <condition>;
+    -- HAVING was made because the WHERE clause can't handle aggregate functions like SUM or COUNT
  ```
 
 
