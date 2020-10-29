@@ -2,6 +2,14 @@
 ![](images/dll.png)
 ![](images/select.png)
 
+**NTK**
+- Can't use aliases in WHEN statements as they aren't part of the table
+    ```sql
+        SELECT Quantity*Price AS 'GrossProfit'
+        FROM Orders
+        WHERE 'GrossProfit' > 1000;
+        -- You can't condition on 'GrossProfit' because it doesn't exist in the table
+    ```
 
 **Wildcards**
 - msSQL not case-sensitive
@@ -33,7 +41,54 @@
     -- returns all names that start with a J and are 5 letters long
 ```
 
-**Syntax**
+**DDL Syntax**
+```sql
+    CREATE DATABASE <DBname>;
+
+    CREATE TABLE <tablename>
+    (
+        <col1> <datatype>,
+        <col2> <datatype>,
+        ...
+    ); 
+    -- creates a table within a database with column names col1, col2 etc.
+
+    INSERT INTO <table name> (<col1>, <col2>, ...) 
+    VALUES (<val1>, <val2>, ...),
+            (<val1>, <val2>, ...),
+            ...; 
+    -- inserts values into a table
+
+    UPDATE <tablename>
+        SET <colname1> = <value1>
+        WHERE <condition>;
+    -- changes the value of colname1 to value1 where conditions are met
+    -- without the WHERE clause, it would update all rows in the column
+
+    ALTER TABLE <tablename> 
+    ADD <colname> <datatype>;
+    -- adds a column with that name and datatype
+
+    ALTER TABLE <tablename>
+        ALTER COLUMN <colname> <changes>;
+    -- e.g. can change a column to be NOT NULL or NULL
+    -- maybe also change the datatype of that column etc.
+
+    DELETE FROM <tablename> WHERE <condition>;
+    -- deletes all rows where the condition is met
+    -- without the WHERE clause, it would delete all rows in the table
+
+    DROP <table>|<database> <name>;
+    -- deletes the table or database with that name
+
+    TRUNCATE TABLE <tablename>;
+    -- TRUNCATE deletes all data in the table but NOT the table itself
+    -- it will leave a blank table with no columns
+```
+
+
+
+**DML Syntax**
 ```sql
     SELECT * FROM <table>;
     -- Returns all rows in the table
@@ -75,6 +130,9 @@
 
     SELECT * FROM <table> WHERE <col> BETWEEN val1 AND val2;
     -- BETWEEN returns rows where the value in col are between val1 and val2
+
+    SELECT * FROM <table> WHERE CHARINDEX('''', <col>) > 0;
+    -- CHARINDEX is a string function
     
  ```
 
