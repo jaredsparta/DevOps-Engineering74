@@ -72,3 +72,9 @@
 3. Deployment/Live environments
 
 - Code written will move between these different environments
+- The Dev environment should mirror the testing and development environments to the best of it's abilities
+
+<br>
+
+**How to make such environments?**
+- We will use Vagrant to create environments
