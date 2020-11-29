@@ -1,10 +1,8 @@
-# Training Timeline
-A timeline of the DevOps course
-
-**NEED TO DO**
-- Add information on the notes and link them
+## A timeline of the DevOps course
 
 ---
+
+<br>
 
 - **Week 1**: [Business Week](https://github.com/jaredsparta/ENG74_DEVOPS/tree/main/1st_Week)
 
@@ -29,6 +27,12 @@ A timeline of the DevOps course
 
 - **Week 3**: [Python](https://github.com/jaredsparta/ENG74_DEVOPS/blob/main/3rd_Week/README.md)
 
+    NOTES:
+    - [Classes](https://github.com/jaredsparta/python_classes)
+    - [Control flow](https://github.com/jaredsparta/control_flow)
+
+
+    EXERCISES:
     - [Task 1](https://github.com/jaredsparta/python_task1)
     - [Task 2](https://github.com/jaredsparta/python_task2)
     - [Python Functions](https://github.com/jaredsparta/python_functions)
@@ -46,7 +50,9 @@ A timeline of the DevOps course
 - **Week 4**: [Python](https://github.com/jaredsparta/ENG74_DEVOPS/blob/main/3rd_Week/README.md)
     
     NOTES:
-    - [OOP]()
+    - [OOP](https://github.com/jaredsparta/python_oop)
+    - [TDD](https://github.com/jaredsparta/tdd_python)
+    - [Python Modules](https://github.com/jaredsparta/python_modules)
 
     EXERCISES:
     - [TDD Task 1](https://github.com/jaredsparta/tdd_test_task)
@@ -72,6 +78,16 @@ A timeline of the DevOps course
     NOTES:
     - [Virtual Boxes](https://github.com/jaredsparta/virtualbox)
     - [Provisioning and Dev Environment](https://github.com/jaredsparta/provisioning-dev-env)
+    - [Bash Commands](https://github.com/jaredsparta/bash-commands)
 
     EXERCISES:
     - [Provisioning a VM for a node.js app](https://github.com/jaredsparta/provisioning-node-js-task)
+    - [Provision a database with MongoDB](https://github.com/jaredsparta/provisioning-dev-env-task-2)
+    - [Multi-machine vagrant](https://github.com/jaredsparta/provisioning-dev-env-task-3)
+    - [Configuring nginx as areverse proxy](https://github.com/jaredsparta/nginx-configuration-of-multi-vagrant-machine)
+
+<br>
+
+---
+
+- **Week 7**
