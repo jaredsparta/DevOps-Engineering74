@@ -17,6 +17,15 @@
 
 - **Week 2**: [SQL](https://github.com/jaredsparta/ENG74_DEVOPS/tree/main/2nd_Week)
 
+    NOTES:
+    - [SQL Basics](https://github.com/jaredsparta/DevOps-Engineering74/blob/main/2nd_Week/W2D1.md)
+    - [Normalisation and DQL](https://github.com/jaredsparta/DevOps-Engineering74/blob/main/2nd_Week/W2D2.md)
+    - [Functions and Joins](https://github.com/jaredsparta/DevOps-Engineering74/blob/main/2nd_Week/W2D3.md)
+    - [Subqueries](https://github.com/jaredsparta/DevOps-Engineering74/blob/main/2nd_Week/W2D4.md)
+    - [ERD Diagrams](https://github.com/jaredsparta/DevOps-Engineering74/blob/main/2nd_Week/ERD.md)
+    - [Some more joins](https://github.com/jaredsparta/DevOps-Engineering74/blob/main/2nd_Week/Joins.md)
+
+    EXERCISES:
     - [SQL Exercise 1](https://github.com/jaredsparta/sql_exercise1)
     - [SQL Exercise 2](https://github.com/jaredsparta/sql_exercise2)
     - [SQL Exercise 3](https://github.com/jaredsparta/sql_exercise3)
