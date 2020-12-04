@@ -74,7 +74,7 @@
 
 ---
 
-- **Week 5**: [MVC with Flask and Airplane Project Week]()
+- **Week 5**: MVC with Flask and Airplane Project Week
 
     - [Flask](https://github.com/jaredsparta/mvc_with_flask)
 
@@ -99,4 +99,8 @@
 
 ---
 
-- **Week 7**
+- **Week 7** CI/CD, AWS and Networking
+
+    - [Repo used for CI/CD](https://github.com/jaredsparta/Sparta-App-Jenkins-Reconfiguration)
+    - [AWS](https://github.com/jaredsparta/AWS-1)
+
