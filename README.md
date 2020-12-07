@@ -104,9 +104,3 @@
     - [Repo used for CI/CD examples](https://github.com/jaredsparta/Sparta-App-Jenkins-Reconfiguration)
     - [AWS](https://github.com/jaredsparta/AWS-1)
     - [Networking](https://github.com/jaredsparta/Networking-1)
-
-    VIDEOS:
-    - [Dev Environment](https://www.youtube.com/watch?v=jCtDJVvbvKQ)
-    - [CI Pipeline](https://www.youtube.com/watch?v=To6nBK90nlQ)
-    - [AWS](https://www.youtube.com/watch?v=TT2TiSgIzJQ)
-    - [CD Pipeline](https://www.youtube.com/watch?v=n0dDqcp73YE)
