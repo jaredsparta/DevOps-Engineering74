@@ -104,3 +104,12 @@
     - [Repo used for CI/CD examples](https://github.com/jaredsparta/Sparta-App-Jenkins-Reconfiguration)
     - [AWS](https://github.com/jaredsparta/AWS-1)
     - [Networking](https://github.com/jaredsparta/Networking-1)
+
+<br>
+
+---
+
+- **Week 8** VPC's and Ansible
+
+    - [VPC's](https://github.com/jaredsparta/VPC-1)
+    - [Ansible](https://github.com/jaredsparta/Ansible-1)
