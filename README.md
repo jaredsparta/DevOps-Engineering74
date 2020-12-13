@@ -112,4 +112,5 @@
 - **Week 8** VPC's and Ansible
 
     - [VPC's](https://github.com/jaredsparta/VPC-1)
-    - [Ansible](https://github.com/jaredsparta/Ansible-1)
+    - [Using Ansible](https://github.com/jaredsparta/Ansible-Notes)
+    - [Ansible Notes](https://github.com/jaredsparta/Ansible-1)
